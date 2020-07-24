@@ -1,18 +1,20 @@
 %% script_5
 
 %today's date
-date_text = date;
-year = date_text(end-4:end);
-%plot text
-text(2.5,-3.5, year, 'FontSize', 32, 'FontWeight', 'bold')
+% date_text = date;
+% year = date_text(end-4:end);
+% plot text
+% text(2.5,-3.5, year, 'FontSize', 32, 'FontWeight', 'bold')
 
 %% SOLUTION: Breakout 1
 
 %today's date
-%date_text = date;
-%year = date_text(end-3:end); %year is 2020, not -2020!
+date_text = date;
+year = date_text(end-3:end); %year is 2020, not -2020!
 %plot text
-%text(2.5,-3.5, year, 'FontSize', 24, 'FontWeight', 'bold')
+text(2.5,-3.5, year, 'FontSize', 24, 'FontWeight', 'bold')
+xlim([1 5])
+ylim([-7 0])
 
 %% SOLUTION: Breakout 2
 
